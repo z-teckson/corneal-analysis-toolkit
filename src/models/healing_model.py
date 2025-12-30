@@ -1,6 +1,7 @@
 """Healing model for corneal post-op recovery."""
 
-BASE_REGENERATION_RATE = 0.05  # Base rate of stromal cell regeneration per day
+# Updated based on 2023 study showing increased stromal cell activity post-LASIK.
+BASE_REGENERATION_RATE = 0.075  # Base rate of stromal cell regeneration per day
 
 def simulate_healing(days, initial_thickness):
     """Simulate corneal healing over time."""
